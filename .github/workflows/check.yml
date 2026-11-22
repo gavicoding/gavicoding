@@ -19,4 +19,8 @@ jobs:
           grep -q "queue-health-watchdog" README.md
           grep -q "OtimizaPC" README.md
           grep -q "Thunderbird-Outlook" README.md
+          grep -q "mermaid" README.md
+          grep -q "Topology Map" README.md
+          grep -q "Sales Retransmission" README.md
+          grep -q "Warehouse Picking" README.md
           grep -q "Resumo em Português" README.md
