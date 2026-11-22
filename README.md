@@ -2,7 +2,7 @@
 
 **IT Automation & Software Engineer | Applied AI & Data Privacy (LGPD/GDPR)**
 
-I design and build resilient production tools across **Python, TypeScript, and C# (.NET)** — turning repetitive IT operations, legacy system bottlenecks, and compliance risks into automated, observable, and secure software.
+I design and build resilient production tools across **Python, TypeScript, and C# (.NET)** turning repetitive IT operations, legacy system bottlenecks, and compliance risks into automated, observable, and secure software.
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
