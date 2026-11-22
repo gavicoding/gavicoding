@@ -32,7 +32,7 @@ I design and build resilient production tools across **Python, TypeScript, Next.
 
 - **IT Fleet & Operations Automation:** Windows services, remote agents with mutual TLS (mTLS), unattended desktop migrations, and automated sales/sync recovery workflows.
 - **Infrastructure Mapping & Observability:** End-to-end service dependency topology maps, read-only database replication monitors, trend-based alerting heuristics, and operational picking/throughput KPIs.
-- **Applied AI & Data Privacy (LGPD/GDPR):** Multimodal AI pipelines paired with deterministic & vision-based Data Loss Prevention (DLP), DPIA/RIPD assessments, irreversible relational anonymization, time-boxed access governance, and security awareness training.
+- **Applied AI, DPO Governance & AppSec:** Practical LGPD (Law 13.709/2018) & GDPR DPO programs (RoPA, DPAs, Arts. 7/11/18 workflows, DPIA/RIPD, 12-page LGPD technical book chapter, Portaria MTE 671/2021 biometric compliance), OWASP Top 10 web pentesting (16 critical/medium findings & remediation) + digital forensics, irreversible relational anonymization, time-boxed access governance, and multimodal AI pipelines gated by deterministic & vision-based DLP.
 - **Web Engineering & UI Performance:** Next.js App Router dashboards (`TTFB 6.8s → 0.1s`), interactive Leaflet/OSM store locators, automated WCAG contrast audits, CSP-compliant UI extensions, and responsive animated interfaces.
 - **Native Windows Engineering:** MVVM desktop applications in .NET 8 + WPF and standalone PyInstaller utilities built for non-technical end users and IT support teams.
 
@@ -130,6 +130,10 @@ flowchart LR
 - **Challenge:** Turn raw voice notes, RSS feeds, and screenshots into structured technical posts safely without risking credential or internal infrastructure exposure.
 - **Architecture:** Async **Python** service deployed via **Docker / Cloud Run**, integrating Gemini/Vertex AI, PostgreSQL, OAuth 2.0 publishing, and an automated Vision DLP audit layer that blocks screenshots containing leaked tokens, emails, or internal IPs.
 
+### 8. Data Privacy Governance (DPO), OWASP AppSec & SaaS Product Architecture
+- **Challenge:** Align fast-moving engineering, clinical/legal SaaS product design, and multi-site retail operations with strict LGPD/GDPR rules, offensive vulnerability findings, and automated web data pipelines.
+- **Architecture & Delivery:** Led DPO governance (RoPA, Arts. 7/11 legal bases, Art. 18 rights workflows, vendor DPAs, Portaria MTE 671/2021 biometric compliance, DPIA/RIPD, and a co-authored 12-page technical LGPD book chapter), remediated 16 OWASP Top 10 critical/medium web findings + digital forensics investigations, and designed resilient SaaS specs (Zero-Knowledge E2EE vaults, dual PostgreSQL + vector search) alongside Playwright automation scrapers.
+
 ---
 
 ## 🌎 Collaboration & Availability
@@ -164,5 +168,6 @@ Desenvolvo sistemas de produção e ferramentas de automação com foco em **Pyt
   - **Monitor Somente Leitura de Replicação SQL Server:** heurística anti-falso-positivo e alertas com cooldown.
   - **Orquestrador ITSM + CFTV:** automação de coleta de evidências em DVRs/NVRs com fila de retentativas e atualização automática de chamados.
   - **Copiloto Assíncrono de Conteúdo com Vision DLP:** pipeline Docker/Cloud Run com auditoria visual automática antes da publicação.
+  - **Governança DPO (LGPD/GDPR), OWASP AppSec & Arquitetura SaaS:** programas de conformidade (RoPA, bases legais, Art. 18, DPAs, Portaria MTE 671/2021, DPIA/RIPD, coautoria de capítulo técnico de 12 páginas sobre LGPD), pentests web (remediação de 16 falhas críticas/médias OWASP Top 10) + forense digital, especificações SaaS (cofres E2EE Zero-Knowledge, PostgreSQL + busca vetorial) e automações Playwright.
 
 </details>
