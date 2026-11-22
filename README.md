@@ -1,6 +1,6 @@
 # Hi, I'm Gabriel Souza (`@gavicoding`) 👋
 
-**IT Automation & Software Engineer | Applied AI, Web Systems & Data Privacy (LGPD/GDPR)**
+**IT Automation & Software Engineer | Product Owner (PO), System Implementation & Data Privacy (LGPD/GDPR)**
 
 🌐 **Live Portfolio & Resume:** [gavicoding.github.io](https://gavicoding.github.io)
 
@@ -35,6 +35,7 @@ I design and build resilient production tools across **Python, TypeScript, Next.
 - **Applied AI, DPO Governance & AppSec:** Practical LGPD (Law 13.709/2018) & GDPR DPO programs (RoPA, DPAs, Arts. 7/11/18 workflows, DPIA/RIPD, 12-page practical LGPD chapter, Portaria MTE 671/2021 biometric compliance), OWASP Top 10 web pentesting (16 critical/medium findings with remediation & hardening plans) + digital forensics, irreversible relational anonymization, time-boxed access governance, and multimodal AI pipelines gated by deterministic & vision-based DLP.
 - **Web Engineering & UI Performance:** Next.js App Router dashboards (`TTFB 6.8s → 0.1s`), interactive Leaflet/OSM store locators, automated WCAG contrast audits, CSP-compliant UI extensions, and responsive animated interfaces.
 - **Native Windows Engineering:** MVVM desktop applications in .NET 8 + WPF and standalone PyInstaller utilities built for non-technical end users and IT support teams.
+- **Product Ownership (PO) & System Implementation:** End-to-end ERP and internal platform deployments, stakeholder requirements gathering, technical specifications, Kanban backlog governance, UAT sign-off, parallel cutovers, wave rollouts, migration runbooks, software-house coordination, and hands-on user training.
 
 ---
 
@@ -134,6 +135,10 @@ flowchart LR
 - **Challenge:** Align fast-moving engineering, clinical/legal SaaS product design, and multi-site retail operations with strict LGPD/GDPR rules, offensive vulnerability findings, and automated web data pipelines.
 - **Architecture & Delivery:** Led DPO governance (RoPA, Arts. 7/11 legal bases, Art. 18 rights workflows, vendor DPAs, Portaria MTE 671/2021 biometric compliance, DPIA/RIPD, and an authored 12-page practical LGPD chapter on retail risk & regulatory readiness), conducted web pentests mapping 16 OWASP Top 10 critical/medium findings with remediation & server-hardening plans + digital forensics, architected two multi-tenant SaaS platforms (healthcare clinic management with scheduling, patient records, inventory & recurring billing; legal practice & client portal with RBAC and case tracking), and built Playwright scrapers plus a bilingual Telegram + Google Sheets + GitHub Actions content pipeline.
 
+### 9. Solutions Product Ownership (PO) & End-to-End System Deployments
+- **Challenge:** Deliver complex ERP modules, internal web portals (monitoring, fleet control, CCTV, recruiting), and cross-branch rollouts (`~80 stores / ~400 endpoints`) without disrupting daily retail operations.
+- **Architecture & Delivery:** Bridged business stakeholders, internal engineering, and third-party software houses — leading requirements discovery, technical specifications, Kanban backlog prioritization, UAT validation, zero-downtime parallel cutovers, wave rollouts, migration runbooks, and hands-on operational training.
+
 ---
 
 ## 🌎 Collaboration & Availability
@@ -169,5 +174,6 @@ Desenvolvo sistemas de produção e ferramentas de automação com foco em **Pyt
   - **Orquestrador ITSM + CFTV:** automação de coleta de evidências em DVRs/NVRs com fila de retentativas e atualização automática de chamados.
   - **Copiloto Assíncrono de Conteúdo com Vision DLP:** pipeline Docker/Cloud Run com auditoria visual automática antes da publicação.
   - **Governança DPO (LGPD/GDPR), OWASP AppSec & Arquitetura SaaS:** programas de conformidade (RoPA, bases legais, Art. 18, DPAs, Portaria MTE 671/2021, DPIA/RIPD e redação de capítulo técnico-prático de 12 páginas sobre LGPD e gestão de riscos no varejo), pentests web (mapeamento de 16 falhas críticas/médias OWASP Top 10 com planos de remediação e hardening) + forense digital, arquitetura funcional de duas plataformas SaaS multi-tenant (gestão clínica e portal jurídico com RBAC, agenda e módulos financeiros) e automações com Playwright, Telegram, Google Sheets e GitHub Actions.
+  - **Product Ownership (PO) & Implantação de Sistemas/ERPs:** levantamento de requisitos com áreas de negócio, especificações técnicas, gestão de backlog em Kanban, ponte com software houses, homologação (UAT), viradas em paralelo sem indisponibilidade, rollouts em ondas, runbooks de migração e treinamento prático de equipes.
 
 </details>
