@@ -62,3 +62,26 @@ I design and build resilient production tools across **Python, TypeScript, and C
 - **Working Style:** Remote · Async-first · Clear technical writing in **English** and **Portuguese**
 - **Focus Areas:** IT Automation, Backend/Platform Engineering (Python / TypeScript), Windows Tooling (.NET / Python), Applied AI & Privacy Engineering (LGPD/GDPR)
 - **GitHub:** [@gavicoding](https://github.com/gavicoding)
+
+---
+
+<details>
+<summary>🇧🇷 Resumo em Português (Clique para expandir)</summary>
+
+### Gabriel Souza (`@gavicoding`) — Engenharia de Software, Automação de TI & IA Aplicada
+
+Desenvolvo sistemas de produção e ferramentas de automação com foco em **Python, TypeScript e C# (.NET)** — resolvendo gargalos reais de operação de TI, integrações corporativas, observabilidade e segurança/privacidade de dados (LGPD/GDPR).
+
+- **Projetos Open-Source em Destaque:**
+  - [`pii-screenshot-guard`](https://github.com/gavicoding/pii-screenshot-guard): Scanner e redator Zero-Trust DLP em Python (LGPD/GDPR, CPF/CNPJ com dígito verificador, cartões Luhn, chaves de API, IPs internos e suporte a OCR/Vision).
+  - [`queue-health-watchdog`](https://github.com/gavicoding/queue-health-watchdog): Monitor somente leitura de filas/replicação em TypeScript com heurística de tendência (diferencia `HIGH_LOAD` de `STALLED`), throttling de alertas, webhooks e dashboard ao vivo.
+  - [`OtimizaPC`](https://github.com/gavicoding/OtimizaPC): Otimizador nativo para Windows em .NET 8 + WPF (MVVM), com pontos de restauração, limpeza multi-usuário, busca de duplicados por hash e análise instantânea de disco.
+  - [`Thunderbird-Outlook`](https://github.com/gavicoding/Thunderbird-Outlook): Migrador bidirecional de e-mails e contatos entre Thunderbird e Outlook Clássico preservando datas originais, remetentes e caminhos longos no Windows.
+
+- **Experiência em Arquiteturas Corporativas (Casos Sanitizados):**
+  - Agente de gerenciamento de frota Windows (`100+ máquinas`) via WebSockets com mTLS e watchdogs.
+  - Monitor somente leitura de filas de replicação SQL Server com heurística anti-falso-positivo.
+  - Orquestrador de chamados ITSM + automação de captura de evidências em DVRs/NVRs distribuídos.
+  - Copiloto assíncrono de conteúdo com camada de auditoria Vision DLP antes da publicação.
+
+</details>
