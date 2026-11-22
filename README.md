@@ -32,7 +32,7 @@ I design and build resilient production tools across **Python, TypeScript, Next.
 
 - **IT Fleet & Operations Automation:** Windows services, remote agents with mutual TLS (mTLS), unattended desktop migrations, and automated sales/sync recovery workflows.
 - **Infrastructure Mapping & Observability:** End-to-end service dependency topology maps, read-only database replication monitors, trend-based alerting heuristics, and operational picking/throughput KPIs.
-- **Applied AI, DPO Governance & AppSec:** Practical LGPD (Law 13.709/2018) & GDPR DPO programs (RoPA, DPAs, Arts. 7/11/18 workflows, DPIA/RIPD, 12-page LGPD technical book chapter, Portaria MTE 671/2021 biometric compliance), OWASP Top 10 web pentesting (16 critical/medium findings & remediation) + digital forensics, irreversible relational anonymization, time-boxed access governance, and multimodal AI pipelines gated by deterministic & vision-based DLP.
+- **Applied AI, DPO Governance & AppSec:** Practical LGPD (Law 13.709/2018) & GDPR DPO programs (RoPA, DPAs, Arts. 7/11/18 workflows, DPIA/RIPD, 12-page practical LGPD chapter, Portaria MTE 671/2021 biometric compliance), OWASP Top 10 web pentesting (16 critical/medium findings with remediation & hardening plans) + digital forensics, irreversible relational anonymization, time-boxed access governance, and multimodal AI pipelines gated by deterministic & vision-based DLP.
 - **Web Engineering & UI Performance:** Next.js App Router dashboards (`TTFB 6.8s → 0.1s`), interactive Leaflet/OSM store locators, automated WCAG contrast audits, CSP-compliant UI extensions, and responsive animated interfaces.
 - **Native Windows Engineering:** MVVM desktop applications in .NET 8 + WPF and standalone PyInstaller utilities built for non-technical end users and IT support teams.
 
@@ -132,7 +132,7 @@ flowchart LR
 
 ### 8. Data Privacy Governance (DPO), OWASP AppSec & SaaS Product Architecture
 - **Challenge:** Align fast-moving engineering, clinical/legal SaaS product design, and multi-site retail operations with strict LGPD/GDPR rules, offensive vulnerability findings, and automated web data pipelines.
-- **Architecture & Delivery:** Led DPO governance (RoPA, Arts. 7/11 legal bases, Art. 18 rights workflows, vendor DPAs, Portaria MTE 671/2021 biometric compliance, DPIA/RIPD, and a co-authored 12-page technical LGPD book chapter), remediated 16 OWASP Top 10 critical/medium web findings + digital forensics investigations, and designed resilient SaaS specs (Zero-Knowledge E2EE vaults, dual PostgreSQL + vector search) alongside Playwright automation scrapers.
+- **Architecture & Delivery:** Led DPO governance (RoPA, Arts. 7/11 legal bases, Art. 18 rights workflows, vendor DPAs, Portaria MTE 671/2021 biometric compliance, DPIA/RIPD, and an authored 12-page practical LGPD chapter on retail risk & regulatory readiness), conducted web pentests mapping 16 OWASP Top 10 critical/medium findings with remediation & server-hardening plans + digital forensics, architected two multi-tenant SaaS platforms (healthcare clinic management with scheduling, patient records, inventory & recurring billing; legal practice & client portal with RBAC and case tracking), and built Playwright scrapers plus a bilingual Telegram + Google Sheets + GitHub Actions content pipeline.
 
 ---
 
@@ -168,6 +168,6 @@ Desenvolvo sistemas de produção e ferramentas de automação com foco em **Pyt
   - **Monitor Somente Leitura de Replicação SQL Server:** heurística anti-falso-positivo e alertas com cooldown.
   - **Orquestrador ITSM + CFTV:** automação de coleta de evidências em DVRs/NVRs com fila de retentativas e atualização automática de chamados.
   - **Copiloto Assíncrono de Conteúdo com Vision DLP:** pipeline Docker/Cloud Run com auditoria visual automática antes da publicação.
-  - **Governança DPO (LGPD/GDPR), OWASP AppSec & Arquitetura SaaS:** programas de conformidade (RoPA, bases legais, Art. 18, DPAs, Portaria MTE 671/2021, DPIA/RIPD, coautoria de capítulo técnico de 12 páginas sobre LGPD), pentests web (remediação de 16 falhas críticas/médias OWASP Top 10) + forense digital, especificações SaaS (cofres E2EE Zero-Knowledge, PostgreSQL + busca vetorial) e automações Playwright.
+  - **Governança DPO (LGPD/GDPR), OWASP AppSec & Arquitetura SaaS:** programas de conformidade (RoPA, bases legais, Art. 18, DPAs, Portaria MTE 671/2021, DPIA/RIPD e redação de capítulo técnico-prático de 12 páginas sobre LGPD e gestão de riscos no varejo), pentests web (mapeamento de 16 falhas críticas/médias OWASP Top 10 com planos de remediação e hardening) + forense digital, arquitetura funcional de duas plataformas SaaS multi-tenant (gestão clínica e portal jurídico com RBAC, agenda e módulos financeiros) e automações com Playwright, Telegram, Google Sheets e GitHub Actions.
 
 </details>
