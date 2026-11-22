@@ -1,11 +1,18 @@
 # Hi, I'm Gabriel Souza (`@gavicoding`) 👋
 
-**IT Automation & Software Engineer | Applied AI & Data Privacy (LGPD/GDPR)**
+**IT Automation & Software Engineer | Applied AI, Web Systems & Data Privacy (LGPD/GDPR)**
 
-I design and build resilient production tools across **Python, TypeScript, and C# (.NET)** — turning repetitive IT operations, distributed retail/warehouse bottlenecks, and compliance risks into automated, observable, and secure software.
+🌐 **Live Portfolio & Resume:** [gavicoding.github.io](https://gavicoding.github.io)
+
+I design and build resilient production tools across **Python, TypeScript, Next.js, T-SQL, and C# (.NET)** — turning repetitive IT operations, distributed retail/warehouse bottlenecks, web interfaces, and compliance risks into automated, observable, and secure software.
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/docs/Web/JavaScript)
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/docs/Web/CSS)
 [![C# / .NET 8](https://img.shields.io/badge/.NET_8-512BD4?style=flat-square&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
 [![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)](https://www.gnu.org/software/bash/)
 [![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)](https://learn.microsoft.com/powershell/)
@@ -25,7 +32,8 @@ I design and build resilient production tools across **Python, TypeScript, and C
 
 - **IT Fleet & Operations Automation:** Windows services, remote agents with mutual TLS (mTLS), unattended desktop migrations, and automated sales/sync recovery workflows.
 - **Infrastructure Mapping & Observability:** End-to-end service dependency topology maps, read-only database replication monitors, trend-based alerting heuristics, and operational picking/throughput KPIs.
-- **Applied AI & Zero-Trust DLP:** Multimodal AI pipelines paired with deterministic & vision-based Data Loss Prevention (LGPD/GDPR PII, tokens, and internal IP guardrails) + GitHub PR API auditing.
+- **Applied AI & Data Privacy (LGPD/GDPR):** Multimodal AI pipelines paired with deterministic & vision-based Data Loss Prevention (DLP), DPIA/RIPD assessments, irreversible relational anonymization, time-boxed access governance, and security awareness training.
+- **Web Engineering & UI Performance:** Next.js App Router dashboards (`TTFB 6.8s → 0.1s`), interactive Leaflet/OSM store locators, automated WCAG contrast audits, CSP-compliant UI extensions, and responsive animated interfaces.
 - **Native Windows Engineering:** MVVM desktop applications in .NET 8 + WPF and standalone PyInstaller utilities built for non-technical end users and IT support teams.
 
 ---
@@ -34,6 +42,7 @@ I design and build resilient production tools across **Python, TypeScript, and C
 
 | Project | Stack | Description |
 | :--- | :--- | :--- |
+| **[gavicoding.github.io](https://github.com/gavicoding/gavicoding.github.io)** ([Live Site](https://gavicoding.github.io)) | HTML5 · CSS3 · Vanilla JS · Bilingual | Official bilingual (`EN` / `PT-BR`) portfolio & interactive resume featuring animated UI, category filters, production impact metrics, and LGPD/GDPR governance highlights. |
 | **[pii-screenshot-guard](https://github.com/gavicoding/pii-screenshot-guard)** ([Docs](https://gavicoding.github.io/pii-screenshot-guard/)) | Python · CLI · GitHub API · OCR/Vision · Docker | Zero-Trust DLP scanner, redactor & GitHub PR diff auditor catching LGPD/GDPR PII (mod-11 CPF/CNPJ, Luhn cards), API secrets, and RFC 1918 internal IPs in logs, PRs, and screenshots. |
 | **[queue-health-watchdog](https://github.com/gavicoding/queue-health-watchdog)** | TypeScript · Node.js · Docker | Read-only replication & job queue monitor with snapshot trend heuristics (distinguishing active `HIGH_LOAD` from `STALLED` queues), cooldown alert throttling, webhooks, and a live status dashboard. |
 | **[tsql-retail-ops-analytics](https://github.com/gavicoding/tsql-retail-ops-analytics)** | T-SQL · SQL Server · Stored Procs · DBA | Production-inspired T-SQL analytics & DBA toolkit: single-pass conditional sales KPIs, `ROW_NUMBER()` asset deduplication, multi-mode stored procedures, WMS bottlenecks, `sys.dm_tran_locks` diagnostics & least-privilege RBAC. |
@@ -139,6 +148,7 @@ flowchart LR
 Desenvolvo sistemas de produção e ferramentas de automação com foco em **Python, TypeScript e C# (.NET)** — resolvendo gargalos reais de operação de TI, infraestrutura distribuída, observabilidade e segurança/privacidade de dados (LGPD/GDPR).
 
 - **Projetos Open-Source em Destaque:**
+  - [`gavicoding.github.io`](https://github.com/gavicoding/gavicoding.github.io) ([Site ao vivo](https://gavicoding.github.io)): Portfólio web oficial bilíngue (`EN` / `PT-BR`) em HTML5, CSS3 e JavaScript puro, com animações suaves, filtros e métricas reais de impacto.
   - [`pii-screenshot-guard`](https://github.com/gavicoding/pii-screenshot-guard) ([Documentação](https://gavicoding.github.io/pii-screenshot-guard/)): Scanner, redator e auditor de PRs via API do GitHub com foco em Zero-Trust DLP (LGPD/GDPR, CPF/CNPJ com dígito verificador, cartões Luhn, chaves de API, IPs internos e OCR/Vision).
   - [`queue-health-watchdog`](https://github.com/gavicoding/queue-health-watchdog): Monitor somente leitura de filas/replicação em TypeScript com heurística de tendência (diferencia `HIGH_LOAD` de `STALLED`), throttling de alertas, webhooks e dashboard ao vivo.
   - [`tsql-retail-ops-analytics`](https://github.com/gavicoding/tsql-retail-ops-analytics): Portfólio de engenharia SQL Server / T-SQL com agregações condicionais em passada única, deduplicação por `ROW_NUMBER()`, stored procedures multivisão, auditoria WMS/fiscal, diagnóstico de locks (`sys.dm_tran_locks`) e controle de acesso granular (`GRANT SELECT`).
