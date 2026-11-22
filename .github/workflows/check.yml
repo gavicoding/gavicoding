@@ -17,6 +17,7 @@ jobs:
           test -s README.md
           grep -q "pii-screenshot-guard" README.md
           grep -q "queue-health-watchdog" README.md
+          grep -q "tsql-retail-ops-analytics" README.md
           grep -q "OtimizaPC" README.md
           grep -q "Thunderbird-Outlook" README.md
           grep -q "mermaid" README.md
