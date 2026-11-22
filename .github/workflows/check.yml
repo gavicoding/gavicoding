@@ -15,6 +15,7 @@ jobs:
       - name: Verify profile README structure
         run: |
           test -s README.md
+          grep -q "gavicoding.github.io" README.md
           grep -q "pii-screenshot-guard" README.md
           grep -q "queue-health-watchdog" README.md
           grep -q "tsql-retail-ops-analytics" README.md
