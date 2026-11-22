@@ -2,9 +2,11 @@
 
 **IT Automation & Software Engineer | Product Owner (PO), System Implementation & Data Privacy (LGPD/GDPR)**
 
-🌐 **Live Portfolio & Resume:** [gavicoding.github.io](https://gavicoding.github.io)
+🌐 **Live Portfolio & Resume:** [gavicoding.github.io](https://gavicoding.github.io) · 💼 **LinkedIn:** [linkedin.com/in/gabrielvsouza](https://www.linkedin.com/in/gabrielvsouza/)
 
-I design and build resilient production tools across **Python, TypeScript, Next.js, T-SQL, and C# (.NET)** — turning repetitive IT operations, distributed retail/warehouse bottlenecks, web interfaces, and compliance risks into automated, observable, and secure software.
+I design and build resilient production tools across **Python, TypeScript, Next.js, T-SQL, and C# (.NET)**, turning repetitive IT operations, Windows Server / Active Directory administration, distributed retail/warehouse bottlenecks, web interfaces, and compliance risks into automated, observable, and secure software.
+
+**Education & Credentials:** B.Sc. in Computer Science · Postgraduate specialization in Cybersecurity (UTFPR, ongoing) · Postgraduate in Information Security · MBA in Process Management · Volunteer **Security Committee Member at APDADOS®** (since 2021).
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -20,6 +22,7 @@ I design and build resilient production tools across **Python, TypeScript, Next.
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 [![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
 [![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![Windows Server](https://img.shields.io/badge/Windows_Server-0078D6?style=flat-square&logo=windows&logoColor=white)](https://www.microsoft.com/windows-server)
 [![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)](https://www.kernel.org/)
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/)
 [![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)](https://nginx.org/)
@@ -30,10 +33,10 @@ I design and build resilient production tools across **Python, TypeScript, Next.
 
 ## 🔧 What I Build
 
-- **IT Fleet & Operations Automation:** Windows services, remote agents with mutual TLS (mTLS), unattended desktop migrations, and automated sales/sync recovery workflows.
+- **Windows Server, Active Directory & Hybrid IT Operations:** Administration of **Windows Server, Active Directory (GPOs, permissions & access control)**, **Level 2 Service Desk**, **remote & chat-based technical support**, Windows fleet services with mutual TLS (mTLS), unattended desktop migrations, and automated sales/sync recovery workflows.
 - **Infrastructure Mapping & Observability:** End-to-end service dependency topology maps, read-only database replication monitors, trend-based alerting heuristics, and operational picking/throughput KPIs.
-- **Applied AI, DPO Governance & AppSec:** Practical LGPD (Law 13.709/2018) & GDPR DPO programs (RoPA, DPAs, Arts. 7/11/18 workflows, DPIA/RIPD, 12-page practical LGPD chapter, Portaria MTE 671/2021 biometric compliance), OWASP Top 10 web pentesting (16 critical/medium findings with remediation & hardening plans) + digital forensics, irreversible relational anonymization, time-boxed access governance, and multimodal AI pipelines gated by deterministic & vision-based DLP.
-- **Web Engineering & UI Performance:** Next.js App Router dashboards (`TTFB 6.8s → 0.1s`), interactive Leaflet/OSM store locators, automated WCAG contrast audits, CSP-compliant UI extensions, and responsive animated interfaces.
+- **Applied AI, DPO Governance & AppSec:** Practical LGPD (Law 13.709/2018) & GDPR DPO programs (RoPA, DPAs, Arts. 7/11/18 workflows, DPIA/RIPD, Portaria MTE 671/2021 biometric compliance, active **APDADOS® Security Committee** participation), OWASP Top 10 web pentesting (16 critical/medium findings mapped with remediation & hardening plans) + digital forensics, irreversible relational anonymization, time-boxed access governance, and multimodal AI pipelines gated by deterministic & vision-based DLP.
+- **Web Engineering & UI Performance:** Next.js App Router dashboards (`TTFB 6.8s -> 0.1s`), interactive Leaflet/OSM store locators, automated WCAG contrast audits, CSP-compliant UI extensions, and responsive animated interfaces.
 - **Native Windows Engineering:** MVVM desktop applications in .NET 8 + WPF and standalone PyInstaller utilities built for non-technical end users and IT support teams.
 - **Product Ownership (PO) & System Implementation:** End-to-end ERP and internal platform deployments, stakeholder requirements gathering, technical specifications, Kanban backlog governance, UAT sign-off, parallel cutovers, wave rollouts, migration runbooks, software-house coordination, and hands-on user training.
 
@@ -43,7 +46,7 @@ I design and build resilient production tools across **Python, TypeScript, Next.
 
 | Project | Stack | Description |
 | :--- | :--- | :--- |
-| **[gavicoding.github.io](https://github.com/gavicoding/gavicoding.github.io)** ([Live Site](https://gavicoding.github.io)) | HTML5 · CSS3 · Vanilla JS · Bilingual | Official bilingual (`EN` / `PT-BR`) portfolio & interactive resume featuring animated UI, category filters, production impact metrics, and LGPD/GDPR governance highlights. |
+| **[gavicoding.github.io](https://github.com/gavicoding/gavicoding.github.io)** ([Live Site](https://gavicoding.github.io)) | HTML5 · CSS3 · Vanilla JS · Bilingual | Official bilingual (`EN` / `PT-BR`) portfolio & interactive resume featuring custom dark-tech illustrations, About/Education/Career sections, category filters, production impact metrics, and LGPD/GDPR + AppSec highlights. |
 | **[pii-screenshot-guard](https://github.com/gavicoding/pii-screenshot-guard)** ([Docs](https://gavicoding.github.io/pii-screenshot-guard/)) | Python · CLI · GitHub API · OCR/Vision · Docker | Zero-Trust DLP scanner, redactor & GitHub PR diff auditor catching LGPD/GDPR PII (mod-11 CPF/CNPJ, Luhn cards), API secrets, and RFC 1918 internal IPs in logs, PRs, and screenshots. |
 | **[queue-health-watchdog](https://github.com/gavicoding/queue-health-watchdog)** | TypeScript · Node.js · Docker | Read-only replication & job queue monitor with snapshot trend heuristics (distinguishing active `HIGH_LOAD` from `STALLED` queues), cooldown alert throttling, webhooks, and a live status dashboard. |
 | **[tsql-retail-ops-analytics](https://github.com/gavicoding/tsql-retail-ops-analytics)** | T-SQL · SQL Server · Stored Procs · DBA | Production-inspired T-SQL analytics & DBA toolkit: single-pass conditional sales KPIs, `ROW_NUMBER()` asset deduplication, multi-mode stored procedures, WMS bottlenecks, `sys.dm_tran_locks` diagnostics & least-privilege RBAC. |
@@ -105,7 +108,7 @@ flowchart LR
 
 ### 1. Infrastructure & Service Dependency Topology Map
 - **Challenge:** Distributed retail environments often struggle during outages because teams cannot quickly see how stores, departments, hosts, and background services depend on each other.
-- **Architecture:** Built a unified **infrastructure & service topology map** linking distributed store locations, operational sectors, host nodes, and running services — enabling rapid fault correlation, dependency visualization, and root-cause isolation.
+- **Architecture:** Built a unified **infrastructure & service topology map** linking distributed store locations, operational sectors, host nodes, and running services, enabling rapid fault correlation, dependency visualization, and root-cause isolation.
 
 ### 2. Automated Sales Retransmission & Sync Recovery
 - **Challenge:** Intermittent store connectivity and validation errors caused recurring bottlenecks in sales retransmission between POS/store databases and the central ERP.
@@ -120,7 +123,7 @@ flowchart LR
 - **Architecture:** Windows service agent (`NSSM` / `LocalSystem`) communicating over persistent **WebSockets secured with mTLS** to a **FastAPI + PostgreSQL** central control plane, featuring heartbeat telemetry, remote commands, self-updates, watchdogs, and anti-tamper protections.
 
 ### 5. Read-Only ERP Replication Watchdog
-- **Challenge:** Detect stuck HQ ↔ Store database replication queues early without ever writing to production ERP tables or flooding IT support with false alarms during peak hours.
+- **Challenge:** Detect stuck HQ <-> Store database replication queues early without ever writing to production ERP tables or flooding IT support with false alarms during peak hours.
 - **Architecture:** **TypeScript + Prisma** polling worker capturing periodic snapshots of SQL Server replication tables (`read-only`), distinguishing `HIGH_LOAD` from `STALLED` via trend heuristics, with throttled alerting.
 
 ### 6. ITSM + CCTV Evidence Automation Pipeline
@@ -133,31 +136,33 @@ flowchart LR
 
 ### 8. Data Privacy Governance (DPO), OWASP AppSec & SaaS Product Architecture
 - **Challenge:** Align fast-moving engineering, clinical/legal SaaS product design, and multi-site retail operations with strict LGPD/GDPR rules, offensive vulnerability findings, and automated web data pipelines.
-- **Architecture & Delivery:** Led DPO governance (RoPA, Arts. 7/11 legal bases, Art. 18 rights workflows, vendor DPAs, Portaria MTE 671/2021 biometric compliance, DPIA/RIPD, and an authored 12-page practical LGPD chapter on retail risk & regulatory readiness), conducted web pentests mapping 16 OWASP Top 10 critical/medium findings with remediation & server-hardening plans + digital forensics, architected two multi-tenant SaaS platforms (healthcare clinic management with scheduling, patient records, inventory & recurring billing; legal practice & client portal with RBAC and case tracking), and built Playwright scrapers plus a bilingual Telegram + Google Sheets + GitHub Actions content pipeline.
+- **Architecture & Delivery:** Led DPO governance (RoPA, Arts. 7/11 legal bases, Art. 18 rights workflows, vendor DPAs, Portaria MTE 671/2021 biometric compliance, and DPIA/RIPD alongside active **APDADOS® Security Committee** work), conducted web pentests mapping 16 OWASP Top 10 critical/medium findings with remediation & server-hardening plans + digital forensics, architected two multi-tenant SaaS platforms (healthcare clinic management with scheduling, patient records, inventory & recurring billing; legal practice & client portal with RBAC and case tracking), and built Playwright scrapers plus a bilingual Telegram + Google Sheets + GitHub Actions content pipeline.
 
 ### 9. Solutions Product Ownership (PO) & End-to-End System Deployments
 - **Challenge:** Deliver complex ERP modules, internal web portals (monitoring, fleet control, CCTV, recruiting), and cross-branch rollouts (`~80 stores / ~400 endpoints`) without disrupting daily retail operations.
-- **Architecture & Delivery:** Bridged business stakeholders, internal engineering, and third-party software houses — leading requirements discovery, technical specifications, Kanban backlog prioritization, UAT validation, zero-downtime parallel cutovers, wave rollouts, migration runbooks, and hands-on operational training.
+- **Architecture & Delivery:** Bridged business stakeholders, internal engineering, and third-party software houses: leading requirements discovery, technical specifications, Kanban backlog prioritization, UAT validation, zero-downtime parallel cutovers, wave rollouts, migration runbooks, and hands-on operational training.
 
 ---
 
 ## 🌎 Collaboration & Availability
 
 - **Working Style:** Remote · Async-first · Clear technical writing in **English** and **Portuguese**
-- **Focus Areas:** IT Automation, Backend/Platform Engineering (Python / TypeScript), Windows Tooling (.NET / Python), Applied AI & Privacy Engineering (LGPD/GDPR)
-- **GitHub:** [@gavicoding](https://github.com/gavicoding)
+- **Focus Areas:** IT Automation, Backend/Platform Engineering (Python / TypeScript), Windows Server & AD Ops, Systems Implementation (PO), Applied AI & Privacy Engineering (LGPD/GDPR)
+- **Portfolio:** [gavicoding.github.io](https://gavicoding.github.io) · **LinkedIn:** [linkedin.com/in/gabrielvsouza](https://www.linkedin.com/in/gabrielvsouza/) · **GitHub:** [@gavicoding](https://github.com/gavicoding)
 
 ---
 
 <details>
 <summary>🇧🇷 Resumo em Português (Clique para expandir)</summary>
 
-### Gabriel Souza (`@gavicoding`) — Engenharia de Software, Automação de TI & IA Aplicada
+### Gabriel Souza (`@gavicoding`): Engenharia de Software, Automação de TI & Privacidade
 
-Desenvolvo sistemas de produção e ferramentas de automação com foco em **Python, TypeScript e C# (.NET)** — resolvendo gargalos reais de operação de TI, infraestrutura distribuída, observabilidade e segurança/privacidade de dados (LGPD/GDPR).
+Sou Bacharel em Ciência da Computação, pós-graduando em Segurança Cibernética pela **UTFPR**, com Pós-graduação em Segurança da Informação, MBA em Gestão de Processos e atuação voluntária como **Membro do Comitê de Segurança da APDADOS®**.
+
+Desenvolvo sistemas de produção, automações e soluções corporativas com foco em **Python, TypeScript, Next.js, T-SQL e C# (.NET)**, combinando operação prática em **Windows Server, Active Directory (GPOs e controle de acessos), suporte técnico N2 com atendimento remoto e via chat**, infraestrutura distribuída, observabilidade e privacidade de dados (LGPD/GDPR).
 
 - **Projetos Open-Source em Destaque:**
-  - [`gavicoding.github.io`](https://github.com/gavicoding/gavicoding.github.io) ([Site ao vivo](https://gavicoding.github.io)): Portfólio web oficial bilíngue (`EN` / `PT-BR`) em HTML5, CSS3 e JavaScript puro, com animações suaves, filtros e métricas reais de impacto.
+  - [`gavicoding.github.io`](https://github.com/gavicoding/gavicoding.github.io) ([Site ao vivo](https://gavicoding.github.io)): Portfólio web oficial bilíngue (`EN` / `PT-BR`) em HTML5, CSS3 e JavaScript puro, com ilustrações dark-tech exclusivas, formação, linha do tempo, filtros e métricas reais de impacto.
   - [`pii-screenshot-guard`](https://github.com/gavicoding/pii-screenshot-guard) ([Documentação](https://gavicoding.github.io/pii-screenshot-guard/)): Scanner, redator e auditor de PRs via API do GitHub com foco em Zero-Trust DLP (LGPD/GDPR, CPF/CNPJ com dígito verificador, cartões Luhn, chaves de API, IPs internos e OCR/Vision).
   - [`queue-health-watchdog`](https://github.com/gavicoding/queue-health-watchdog): Monitor somente leitura de filas/replicação em TypeScript com heurística de tendência (diferencia `HIGH_LOAD` de `STALLED`), throttling de alertas, webhooks e dashboard ao vivo.
   - [`tsql-retail-ops-analytics`](https://github.com/gavicoding/tsql-retail-ops-analytics): Portfólio de engenharia SQL Server / T-SQL com agregações condicionais em passada única, deduplicação por `ROW_NUMBER()`, stored procedures multivisão, auditoria WMS/fiscal, diagnóstico de locks (`sys.dm_tran_locks`) e controle de acesso granular (`GRANT SELECT`).
@@ -166,6 +171,7 @@ Desenvolvo sistemas de produção e ferramentas de automação com foco em **Pyt
   - [`Thunderbird-Outlook`](https://github.com/gavicoding/Thunderbird-Outlook): Migrador bidirecional de e-mails e contatos entre Thunderbird e Outlook Clássico preservando datas originais, remetentes e caminhos longos no Windows.
 
 - **Experiência em Arquiteturas Corporativas (Casos Sanitizados):**
+  - **Infraestrutura Windows Server, AD & Suporte N2:** administração de servidores Windows, Active Directory (GPOs e controle de acessos), VPNs, suporte técnico N2, atendimento remoto e via chat, e governança ITSM/GLPI em rede multilojas.
   - **Mapa de Topologia de Infraestrutura & Serviços:** mapeamento conectando lojas, setores, servidores e serviços ativos para detecção rápida de falhas e isolamento de causa raiz.
   - **Automação de Retransmissão de Vendas:** detecção proativa de gargalos de transmissão entre lojas/PDVs e ERP central com fluxos automáticos de recuperação e alertas.
   - **Analytics de Performance na Separação (Picking):** visibilidade operacional de etapas, filas e indicadores de produtividade logística.
@@ -173,7 +179,7 @@ Desenvolvo sistemas de produção e ferramentas de automação com foco em **Pyt
   - **Monitor Somente Leitura de Replicação SQL Server:** heurística anti-falso-positivo e alertas com cooldown.
   - **Orquestrador ITSM + CFTV:** automação de coleta de evidências em DVRs/NVRs com fila de retentativas e atualização automática de chamados.
   - **Copiloto Assíncrono de Conteúdo com Vision DLP:** pipeline Docker/Cloud Run com auditoria visual automática antes da publicação.
-  - **Governança DPO (LGPD/GDPR), OWASP AppSec & Arquitetura SaaS:** programas de conformidade (RoPA, bases legais, Art. 18, DPAs, Portaria MTE 671/2021, DPIA/RIPD e redação de capítulo técnico-prático de 12 páginas sobre LGPD e gestão de riscos no varejo), pentests web (mapeamento de 16 falhas críticas/médias OWASP Top 10 com planos de remediação e hardening) + forense digital, arquitetura funcional de duas plataformas SaaS multi-tenant (gestão clínica e portal jurídico com RBAC, agenda e módulos financeiros) e automações com Playwright, Telegram, Google Sheets e GitHub Actions.
+  - **Governança DPO (LGPD/GDPR), OWASP AppSec & Arquitetura SaaS:** programas de conformidade (RoPA, bases legais, Art. 18, DPAs, Portaria MTE 671/2021, DPIA/RIPD e Comitê de Segurança da APDADOS®), pentests web (mapeamento de 16 falhas críticas/médias OWASP Top 10 com planos de remediação e hardening) + forense digital, arquitetura funcional de duas plataformas SaaS multi-tenant (gestão clínica e portal jurídico com RBAC, agenda e módulos financeiros) e automações com Playwright, Telegram, Google Sheets e GitHub Actions.
   - **Product Ownership (PO) & Implantação de Sistemas/ERPs:** levantamento de requisitos com áreas de negócio, especificações técnicas, gestão de backlog em Kanban, ponte com software houses, homologação (UAT), viradas em paralelo sem indisponibilidade, rollouts em ondas, runbooks de migração e treinamento prático de equipes.
 
 </details>
