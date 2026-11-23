@@ -1,6 +1,6 @@
 # Hi, I'm Gabriel Souza (`@gavicoding`) 👋
 
-**IT Automation & Software Engineer | Product Owner (PO), System Implementation & Data Privacy (LGPD/GDPR)**
+**IT Automation, DevOps & Software Engineer | Product Owner (PO), System Implementation & Data Privacy (LGPD/GDPR)**
 
 🌐 **Live Portfolio & Resume:** [gavicoding.github.io](https://gavicoding.github.io) · 💼 **LinkedIn:** [linkedin.com/in/gabrielvsouza](https://www.linkedin.com/in/gabrielvsouza/)
 
@@ -147,7 +147,7 @@ flowchart LR
 ## 🌎 Collaboration & Availability
 
 - **Working Style:** Remote · Async-first · Clear technical writing in **English** and **Portuguese**
-- **Focus Areas:** IT Automation, Backend/Platform Engineering (Python / TypeScript), Windows Server & AD Ops, Systems Implementation (PO), Applied AI & Privacy Engineering (LGPD/GDPR)
+- **Focus Areas:** IT Automation, Backend/Platform Engineering (Python / TypeScript), DevOps & Windows Server/AD Ops, Systems Implementation (PO), Applied AI & Privacy Engineering (LGPD/GDPR)
 - **Portfolio:** [gavicoding.github.io](https://gavicoding.github.io) · **LinkedIn:** [linkedin.com/in/gabrielvsouza](https://www.linkedin.com/in/gabrielvsouza/) · **GitHub:** [@gavicoding](https://github.com/gavicoding)
 
 ---
@@ -155,7 +155,7 @@ flowchart LR
 <details>
 <summary>🇧🇷 Resumo em Português (Clique para expandir)</summary>
 
-### Gabriel Souza (`@gavicoding`): Engenharia de Software, Automação de TI & Privacidade
+### Gabriel Souza (`@gavicoding`): Engenharia de Software, DevOps, Automação de TI & Privacidade
 
 Sou Bacharel em Ciência da Computação, pós-graduando em Segurança Cibernética pela **UTFPR**, com Pós-graduação em Segurança da Informação, MBA em Gestão de Processos e atuação voluntária como **Membro do Comitê de Segurança da APDADOS®**.
 
