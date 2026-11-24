@@ -73,6 +73,7 @@ I design and build resilient production tools across **Python, TypeScript, Next.
 | **[infra-ops-playbook](https://github.com/gavicoding/infra-ops-playbook)** | Bash · PowerShell · Docker · Nginx mTLS · systemd | Hybrid infrastructure (Linux + Windows/AD + Docker + Nginx mTLS) operations playbook: signed PowerShell agents, SID-based ACL recovery, Postgres Docker backups, and 24 sanitized troubleshooting cases. |
 | **[OtimizaPC](https://github.com/gavicoding/OtimizaPC)** | C# · .NET 8 · WPF (MVVM) | Dark-mode Windows system optimizer with System Restore Points, multi-profile cleanup, content-hash duplicate finder, 90-day orphan residue detection, S.M.A.R.T. health, and instant disk space analysis. |
 | **[Thunderbird-Outlook](https://github.com/gavicoding/Thunderbird-Outlook)** | Python · COM · SQLite · vCard 3.0 | Bidirectional Windows email & address-book migrator preserving folder trees, original received dates (`MSGFLAG_UNSENT` / MAPI), senders, attachments, and long file paths (`\\?\`). |
+| **[nfe-toolkit](https://github.com/gavicoding/nfe-toolkit)** | Python · CLI · Zero Dependencies · pytest | Validate, inspect, organize and reconcile Brazilian e-invoice (NF-e/NFC-e) XML files: mod-11 access key check and breakdown, namespace-agnostic XML reader, dry-run `YYYY/MM` organizer that never overwrites, and folder vs. key-list reconciliation with CI-friendly exit codes. |
 
 ---
 
@@ -205,6 +206,7 @@ Desenvolvo sistemas de produção, automações e soluções corporativas com fo
   - [`infra-ops-playbook`](https://github.com/gavicoding/infra-ops-playbook): Playbook de infraestrutura híbrida (Linux + Windows/AD + Docker + Nginx mTLS) com scripts assinados em PowerShell, recuperação de ACLs por SID, backups Postgres em container e 24 casos reais anonimizados de troubleshooting.
   - [`OtimizaPC`](https://github.com/gavicoding/OtimizaPC): Otimizador nativo para Windows em .NET 8 + WPF (MVVM), com pontos de restauração, limpeza multi-usuário, busca de duplicados por hash e análise instantânea de disco.
   - [`Thunderbird-Outlook`](https://github.com/gavicoding/Thunderbird-Outlook): Migrador bidirecional de e-mails e contatos entre Thunderbird e Outlook Clássico preservando datas originais, remetentes e caminhos longos no Windows.
+  - [`nfe-toolkit`](https://github.com/gavicoding/nfe-toolkit): CLI e biblioteca Python sem dependências para validar chaves de acesso de NF-e/NFC-e (módulo 11), ler XMLs com ou sem namespace, organizar pastas em `AAAA/MM` sem sobrescrever e conciliar uma pasta com a lista de chaves esperadas (faltando, sobrando, duplicadas e inválidas).
 
 - **Experiência em Arquiteturas Corporativas (Casos Sanitizados):**
   - **Infraestrutura Windows Server, AD & Suporte N2:** administração de servidores Windows, Active Directory (GPOs e controle de acessos), VPNs, suporte técnico N2, atendimento remoto e via chat, e governança ITSM/GLPI em ambiente com várias unidades.
