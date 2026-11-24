@@ -1,14 +1,15 @@
-name: Contribution snake
+name: Contribution animation
 
-# Gera a animacao da "cobrinha" comendo o grafico de contribuicoes e publica
-# no branch "output", de onde o README carrega a imagem. Roda 1x por dia.
+# Gera a animacao do grafico de contribuicoes ("GAVICODING", bonequinho
+# colocando as contribuicoes do ano e a cobrinha comendo) com dados reais e
+# publica no branch "output", de onde o README carrega a imagem. 1x por dia.
 on:
   schedule:
     - cron: "0 3 * * *"
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [".github/workflows/snake.yml"]
+    paths: [".github/workflows/snake.yml", "scripts/contrib_anim.py"]
 
 permissions:
   contents: write
@@ -18,18 +19,22 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Generate snake SVGs
-        uses: Platane/snk@v3
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
         with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+          python-version: "3.12"
+
+      - name: Render contribution animation
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/contrib_anim.py --user "${{ github.repository_owner }}" --out dist
 
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
+          keep_history: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
