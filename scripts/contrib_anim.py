@@ -1,6 +1,6 @@
 """Gera a animacao do grafico de contribuicoes do perfil (SVG, so CSS + SMIL).
 
-Ciclo de 22 s:
+Ciclo de 15 s (cerca de 1 s de pausa antes de recomecar):
   1. "GAVICODING" aparece escrito com os quadradinhos;
   2. um bonequinho percorre o grafico colocando as contribuicoes reais do ano;
   3. a cobrinha vem atras comendo tudo; recomeca.
@@ -23,10 +23,10 @@ from pathlib import Path
 CELL, GAP = 11, 3
 PITCH = CELL + GAP
 LEFT, TOP = 34, 34
-LOOP = 22.0
-TXT_END = 5.0
-WALK_START, WALK_DUR = 5.5, 7.0
-SNAKE_DELAY = 3.0
+LOOP = 15.0
+TXT_END = 4.0
+WALK_START, WALK_DUR = 4.3, 7.0
+SNAKE_DELAY = 2.5
 
 PALETTES = {
     "dark": {
