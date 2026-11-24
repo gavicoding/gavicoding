@@ -1,10 +1,16 @@
+<p align="center">
+  <a href="https://gavicoding.github.io">
+    <img src="assets/banner.svg" alt="Gabriel Souza (@gavicoding): IT Automation, DevOps and Software Engineer, DPO (LGPD/GDPR)" width="100%" />
+  </a>
+</p>
+
 # Hi, I'm Gabriel Souza (`@gavicoding`) 👋
 
 **IT Automation, DevOps & Software Engineer | Product Owner (PO), System Implementation & Data Privacy (LGPD/GDPR)**
 
 🌐 **Live Portfolio & Resume:** [gavicoding.github.io](https://gavicoding.github.io) · 💼 **LinkedIn:** [linkedin.com/in/gabrielvsouza](https://www.linkedin.com/in/gabrielvsouza/)
 
-I design and build resilient production tools across **Python, TypeScript, Next.js, T-SQL, and C# (.NET)**, turning repetitive IT operations, Windows Server / Active Directory administration, distributed retail/warehouse bottlenecks, web interfaces, and compliance risks into automated, observable, and secure software.
+I design and build resilient production tools across **Python, TypeScript, Next.js, T-SQL, and C# (.NET)**, turning repetitive IT operations, Windows Server / Active Directory administration, distributed multi-site and warehouse bottlenecks, web interfaces, and compliance risks into automated, observable, and secure software.
 
 **Education & Credentials:** B.Sc. in Computer Science · Postgraduate specialization in Cybersecurity (UTFPR, ongoing) · Postgraduate in Information Security · MBA in Process Management · Volunteer **Security Committee Member at APDADOS®** (since 2021).
 
@@ -36,7 +42,7 @@ I design and build resilient production tools across **Python, TypeScript, Next.
 - **Windows Server, Active Directory & Hybrid IT Operations:** Administration of **Windows Server, Active Directory (GPOs, permissions & access control)**, **Level 2 Service Desk**, **remote & chat-based technical support**, Windows fleet services with mutual TLS (mTLS), unattended desktop migrations, and automated sales/sync recovery workflows.
 - **Infrastructure Mapping & Observability:** End-to-end service dependency topology maps, read-only database replication monitors, trend-based alerting heuristics, and operational picking/throughput KPIs.
 - **Applied AI, DPO Governance & AppSec:** Practical LGPD (Law 13.709/2018) & GDPR DPO programs (RoPA, DPAs, Arts. 7/11/18 workflows, DPIA/RIPD, active **APDADOS® Security Committee** participation), OWASP Top 10 web pentesting (16 critical/medium findings mapped with remediation & hardening plans) + digital forensics, irreversible relational anonymization, time-boxed access governance, and multimodal AI pipelines gated by deterministic & vision-based DLP.
-- **Web Engineering & UI Performance:** Next.js App Router dashboards (`TTFB 6.8s -> 0.1s`), interactive Leaflet/OSM store locators, automated WCAG contrast audits, CSP-compliant UI extensions, and responsive animated interfaces.
+- **Web Engineering & UI Performance:** Next.js App Router dashboards (`TTFB 6.8s -> 0.1s`), interactive Leaflet/OSM location finders, automated WCAG contrast audits, CSP-compliant UI extensions, and responsive animated interfaces.
 - **Native Windows Engineering:** MVVM desktop applications in .NET 8 + WPF and standalone PyInstaller utilities built for non-technical end users and IT support teams.
 - **Product Ownership (PO) & System Implementation:** End-to-end ERP and internal platform deployments, stakeholder requirements gathering, technical specifications, Kanban backlog governance, UAT sign-off, parallel cutovers, wave rollouts, migration runbooks, software-house coordination, and hands-on user training.
 
@@ -62,10 +68,10 @@ I design and build resilient production tools across **Python, TypeScript, Next.
 
 ```mermaid
 flowchart LR
-    subgraph EDGE["Distributed Stores & Warehouse Ops"]
-        POS["POS / Store Servers\n(~400 Endpoints)"]
+    subgraph EDGE["Distributed Sites & Warehouse Ops"]
+        POS["POS / Site Servers\n(~400 Endpoints)"]
         WH["Warehouse Picking &\nFulfillment Ops"]
-        DVR["Store DVRs / NVRs"]
+        DVR["Site DVRs / NVRs"]
     end
 
     subgraph OBSERVE["Control Plane, Topology & Watchdogs"]
@@ -102,44 +108,44 @@ flowchart LR
 
 ---
 
-## 🏗️ Selected Private Production Architectures (Sanitized Case Studies)
+## 🏗️ Selected Production Architectures (Case Studies)
 
-> Many of my daily production systems run in private corporate environments and remain strictly private. Below are architectural summaries of systems I engineered end-to-end:
+> Several of these systems run in production and their code is not public. Below are architectural summaries of systems I engineered end-to-end, with names and data left out:
 
 ### 1. Infrastructure & Service Dependency Topology Map
-- **Challenge:** Distributed retail environments often struggle during outages because teams cannot quickly see how stores, departments, hosts, and background services depend on each other.
-- **Architecture:** Built a unified **infrastructure & service topology map** linking distributed store locations, operational sectors, host nodes, and running services, enabling rapid fault correlation, dependency visualization, and root-cause isolation.
+- **Challenge:** Multi-site environments often struggle during outages because teams cannot quickly see how sites, departments, hosts, and background services depend on each other.
+- **Architecture:** Built a unified **infrastructure & service topology map** linking distributed sites, operational sectors, host nodes, and running services, enabling rapid fault correlation, dependency visualization, and root-cause isolation.
 
 ### 2. Automated Sales Retransmission & Sync Recovery
-- **Challenge:** Intermittent store connectivity and validation errors caused recurring bottlenecks in sales retransmission between POS/store databases and the central ERP.
+- **Challenge:** Intermittent site connectivity and validation errors caused recurring bottlenecks in sales retransmission between POS/site databases and the central ERP.
 - **Architecture:** Engineered an automated detection and **sales retransmission pipeline** that identifies stalled batches, pinpoints failing records early, executes safe recovery/retransmission workflows, and dispatches proactive alerts before manual escalation.
 
 ### 3. Warehouse Picking & Operational Performance Analytics
 - **Challenge:** Lack of granular operational metrics made it difficult to measure order separation (picking) throughput, queue delays, and sector efficiency.
 - **Architecture:** Built performance tracking and bottleneck analytics around warehouse separation/picking stages, surfacing actionable KPIs to support faster fulfillment and data-driven operational adjustments.
 
-### 4. Multi-Store Windows Fleet Management Agent (`~400 Endpoints`)
-- **Challenge:** Standardize monitoring, diagnostics, and controlled remote actions across hundreds of distributed retail workstations, POS terminals, and store servers.
+### 4. Multi-Site Windows Fleet Management Agent (`~400 Endpoints`)
+- **Challenge:** Standardize monitoring, diagnostics, and controlled remote actions across hundreds of distributed workstations, POS terminals, and site servers.
 - **Architecture:** Windows service agent (`NSSM` / `LocalSystem`) communicating over persistent **WebSockets secured with mTLS** to a **FastAPI + PostgreSQL** central control plane, featuring heartbeat telemetry, remote commands, self-updates, watchdogs, and anti-tamper protections.
 
 ### 5. Read-Only ERP Replication Watchdog
-- **Challenge:** Detect stuck HQ <-> Store database replication queues early without ever writing to production ERP tables or flooding IT support with false alarms during peak hours.
+- **Challenge:** Detect stuck HQ <-> Site database replication queues early without ever writing to production ERP tables or flooding IT support with false alarms during peak hours.
 - **Architecture:** **TypeScript + Prisma** polling worker capturing periodic snapshots of SQL Server replication tables (`read-only`), distinguishing `HIGH_LOAD` from `STALLED` via trend heuristics, with throttled alerting.
 
 ### 6. ITSM + CCTV Evidence Automation Pipeline
-- **Challenge:** Eliminate manual ticket triage and manual camera footage retrieval across dozens of distributed store NVRs/DVRs.
-- **Architecture:** **Python** orchestrator integrating ITSM ticketing APIs with heterogeneous DVR/NVR HTTP APIs & fallback automation, complete with retry queues for intermittent store connectivity and automated ticket updates.
+- **Challenge:** Eliminate manual ticket triage and manual camera footage retrieval across dozens of distributed NVRs/DVRs.
+- **Architecture:** **Python** orchestrator integrating ITSM ticketing APIs with heterogeneous DVR/NVR HTTP APIs & fallback automation, complete with retry queues for intermittent site connectivity and automated ticket updates.
 
 ### 7. AI Workflow Copilot with Vision DLP Gate
 - **Challenge:** Turn raw voice notes, RSS feeds, and screenshots into structured technical posts safely without risking credential or internal infrastructure exposure.
 - **Architecture:** Async **Python** service deployed via **Docker / Cloud Run**, integrating an LLM API, PostgreSQL, OAuth 2.0 publishing, and an automated Vision DLP audit layer that blocks screenshots containing leaked tokens, emails, or internal IPs.
 
 ### 8. Data Privacy Governance (DPO), OWASP AppSec & SaaS Product Architecture
-- **Challenge:** Align fast-moving engineering, clinical/legal SaaS product design, and multi-site retail operations with strict LGPD/GDPR rules, offensive vulnerability findings, and automated web data pipelines.
+- **Challenge:** Align fast-moving engineering, clinical/legal SaaS product design, and multi-site operations with strict LGPD/GDPR rules, offensive vulnerability findings, and automated web data pipelines.
 - **Architecture & Delivery:** Led DPO governance (RoPA, Arts. 7/11 legal bases, Art. 18 rights workflows, vendor DPAs, and DPIA/RIPD alongside active **APDADOS® Security Committee** work), conducted web pentests mapping 16 OWASP Top 10 critical/medium findings with remediation & server-hardening plans + digital forensics, architected two multi-tenant SaaS platforms (healthcare clinic management with scheduling, patient records, inventory & recurring billing; legal practice & client portal with RBAC and case tracking), and built Playwright scrapers plus a bilingual Telegram + Google Sheets + GitHub Actions content pipeline.
 
 ### 9. Solutions Product Ownership (PO) & End-to-End System Deployments
-- **Challenge:** Deliver complex ERP modules, internal web portals (monitoring, fleet control, CCTV, recruiting), and cross-branch rollouts (`~80 stores / ~400 endpoints`) without disrupting daily retail operations.
+- **Challenge:** Deliver complex ERP modules, internal web portals (monitoring, fleet control, CCTV, recruiting), and cross-site rollouts (`~80 sites / ~400 endpoints`) without disrupting daily operations.
 - **Architecture & Delivery:** Bridged business stakeholders, internal engineering, and third-party software houses: leading requirements discovery, technical specifications, Kanban backlog prioritization, UAT validation, zero-downtime parallel cutovers, wave rollouts, migration runbooks, and hands-on operational training.
 
 ### 10. E-Invoice (NF-e) Intake Hub & Daily Reconciliation
@@ -157,6 +163,14 @@ flowchart LR
 - **Working Style:** Remote · Async-first · Clear technical writing in **English** and **Portuguese**
 - **Focus Areas:** IT Automation, Backend/Platform Engineering (Python / TypeScript), DevOps & Windows Server/AD Ops, Systems Implementation (PO), Applied AI & Privacy Engineering (LGPD/GDPR)
 - **Portfolio:** [gavicoding.github.io](https://gavicoding.github.io) · **LinkedIn:** [linkedin.com/in/gabrielvsouza](https://www.linkedin.com/in/gabrielvsouza/) · **GitHub:** [@gavicoding](https://github.com/gavicoding)
+
+## 🐍 Contribution Activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gavicoding/gavicoding/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gavicoding/gavicoding/output/github-snake.svg" />
+  <img alt="Animated snake eating the contribution graph" src="https://raw.githubusercontent.com/gavicoding/gavicoding/output/github-snake.svg" />
+</picture>
 
 ---
 
@@ -179,9 +193,9 @@ Desenvolvo sistemas de produção, automações e soluções corporativas com fo
   - [`Thunderbird-Outlook`](https://github.com/gavicoding/Thunderbird-Outlook): Migrador bidirecional de e-mails e contatos entre Thunderbird e Outlook Clássico preservando datas originais, remetentes e caminhos longos no Windows.
 
 - **Experiência em Arquiteturas Corporativas (Casos Sanitizados):**
-  - **Infraestrutura Windows Server, AD & Suporte N2:** administração de servidores Windows, Active Directory (GPOs e controle de acessos), VPNs, suporte técnico N2, atendimento remoto e via chat, e governança ITSM/GLPI em rede multilojas.
-  - **Mapa de Topologia de Infraestrutura & Serviços:** mapeamento conectando lojas, setores, servidores e serviços ativos para detecção rápida de falhas e isolamento de causa raiz.
-  - **Automação de Retransmissão de Vendas:** detecção proativa de gargalos de transmissão entre lojas/PDVs e ERP central com fluxos automáticos de recuperação e alertas.
+  - **Infraestrutura Windows Server, AD & Suporte N2:** administração de servidores Windows, Active Directory (GPOs e controle de acessos), VPNs, suporte técnico N2, atendimento remoto e via chat, e governança ITSM/GLPI em ambiente com várias unidades.
+  - **Mapa de Topologia de Infraestrutura & Serviços:** mapeamento conectando unidades, setores, servidores e serviços ativos para detecção rápida de falhas e isolamento de causa raiz.
+  - **Automação de Retransmissão de Vendas:** detecção proativa de gargalos de transmissão entre unidades/PDVs e ERP central com fluxos automáticos de recuperação e alertas.
   - **Analytics de Performance na Separação (Picking):** visibilidade operacional de etapas, filas e indicadores de produtividade logística.
   - **Agente de Gerenciamento de Frota Windows (`~400 máquinas`):** serviço Windows via WebSockets com mTLS, painel FastAPI + PostgreSQL e watchdogs.
   - **Monitor Somente Leitura de Replicação SQL Server:** heurística anti-falso-positivo e alertas com cooldown.
