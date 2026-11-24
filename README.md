@@ -34,6 +34,20 @@ I design and build resilient production tools across **Python, TypeScript, Next.
 [![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)](https://nginx.org/)
 [![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/features/actions)
 [![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)](https://cloud.google.com/)
+[![Active Directory](https://img.shields.io/badge/Active_Directory-0078D4?style=flat-square&logo=windows&logoColor=white)](https://github.com/gavicoding/infra-ops-playbook)
+[![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)](https://gavicoding.github.io/#experience)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)](https://gavicoding.github.io/#experience)
+[![Tkinter](https://img.shields.io/badge/Tkinter_Desktop-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/gavicoding/Thunderbird-Outlook)
+
+**Security & Privacy:**
+[![LGPD](https://img.shields.io/badge/LGPD-009C3B?style=flat-square&logo=shieldsdotio&logoColor=white)](https://gavicoding.github.io/#dpo)
+[![GDPR](https://img.shields.io/badge/GDPR-003399?style=flat-square&logo=shieldsdotio&logoColor=white)](https://gavicoding.github.io/#dpo)
+[![DPO](https://img.shields.io/badge/DPO_Data_Protection_Officer-4B32C3?style=flat-square&logo=letsencrypt&logoColor=white)](https://gavicoding.github.io/#dpo)
+[![OWASP Top 10](https://img.shields.io/badge/OWASP_Top_10-000000?style=flat-square&logo=owasp&logoColor=white)](https://gavicoding.github.io/#dpo)
+[![Zero-Trust DLP](https://img.shields.io/badge/Zero--Trust_DLP-B91C1C?style=flat-square&logo=keepassxc&logoColor=white)](https://github.com/gavicoding/pii-screenshot-guard)
+[![Least Privilege RBAC](https://img.shields.io/badge/Least_Privilege_RBAC-334155?style=flat-square&logo=auth0&logoColor=white)](https://github.com/gavicoding/tsql-retail-ops-analytics/tree/main/security)
+[![ITSM / GLPI](https://img.shields.io/badge/ITSM_/_GLPI-F57C00?style=flat-square)](https://gavicoding.github.io/#experience)
+[![APDADOS Security Committee](https://img.shields.io/badge/APDADOS_Security_Committee-0F766E?style=flat-square)](https://gavicoding.github.io/#dpo)
 
 ---
 
