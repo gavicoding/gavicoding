@@ -46,7 +46,7 @@ I design and build resilient production tools across **Python, TypeScript, Next.
 
 | Project | Stack | Description |
 | :--- | :--- | :--- |
-| **[gavicoding.github.io](https://github.com/gavicoding/gavicoding.github.io)** ([Live Site](https://gavicoding.github.io)) | HTML5 · CSS3 · Vanilla JS · Bilingual | Official bilingual (`EN` / `PT-BR`) portfolio & interactive resume featuring custom dark-tech illustrations, About/Education/Career sections, category filters, production impact metrics, and LGPD/GDPR + AppSec highlights. |
+| **[gavicoding.github.io](https://github.com/gavicoding/gavicoding.github.io)** ([Live Site](https://gavicoding.github.io)) | HTML5 · CSS3 · Vanilla JS · Bilingual | Official bilingual (`EN` / `PT-BR`) portfolio with an interactive CLI, a `Ctrl+K` command palette, three live simulations (DLP redaction, queue health, invoice reconciliation), production case studies told as pain -> solution -> result, and CI checks on every push. Zero frameworks. |
 | **[pii-screenshot-guard](https://github.com/gavicoding/pii-screenshot-guard)** ([Docs](https://gavicoding.github.io/pii-screenshot-guard/)) | Python · CLI · GitHub API · OCR/Vision · Docker | Zero-Trust DLP scanner, redactor & GitHub PR diff auditor catching LGPD/GDPR PII (mod-11 CPF/CNPJ, Luhn cards), API secrets, and RFC 1918 internal IPs in logs, PRs, and screenshots. |
 | **[queue-health-watchdog](https://github.com/gavicoding/queue-health-watchdog)** | TypeScript · Node.js · Docker | Read-only replication & job queue monitor with snapshot trend heuristics (distinguishing active `HIGH_LOAD` from `STALLED` queues), cooldown alert throttling, webhooks, and a live status dashboard. |
 | **[tsql-retail-ops-analytics](https://github.com/gavicoding/tsql-retail-ops-analytics)** | T-SQL · SQL Server · Stored Procs · DBA | Production-inspired T-SQL analytics & DBA toolkit: single-pass conditional sales KPIs, `ROW_NUMBER()` asset deduplication, multi-mode stored procedures, WMS bottlenecks, `sys.dm_tran_locks` diagnostics & least-privilege RBAC. |
@@ -63,7 +63,7 @@ I design and build resilient production tools across **Python, TypeScript, Next.
 ```mermaid
 flowchart LR
     subgraph EDGE["Distributed Stores & Warehouse Ops"]
-        POS["POS / Store Servers\n(100+ Endpoints)"]
+        POS["POS / Store Servers\n(~400 Endpoints)"]
         WH["Warehouse Picking &\nFulfillment Ops"]
         DVR["Store DVRs / NVRs"]
     end
@@ -96,7 +96,7 @@ flowchart LR
 flowchart LR
     IN["Voice Notes / Logs /\nPR Diffs / Screenshots"] --> GATE["Zero-Trust DLP Gate\n(Mod-11 + Luhn + Secret Regex + Vision)"]
     GATE -->|"Sensitive Data Found"| MASK["Block / Redact\n& Masked Alert"]
-    GATE -->|"Verified Clean"| AI["AI Orchestration\n(Gemini / Vertex AI)"]
+    GATE -->|"Verified Clean"| AI["LLM Orchestration\n(Vendor-Neutral API)"]
     AI --> OUT["Structured Outputs /\nAutomated Publishing"]
 ```
 
@@ -118,7 +118,7 @@ flowchart LR
 - **Challenge:** Lack of granular operational metrics made it difficult to measure order separation (picking) throughput, queue delays, and sector efficiency.
 - **Architecture:** Built performance tracking and bottleneck analytics around warehouse separation/picking stages, surfacing actionable KPIs to support faster fulfillment and data-driven operational adjustments.
 
-### 4. Multi-Store Windows Fleet Management Agent (`100+ Endpoints`)
+### 4. Multi-Store Windows Fleet Management Agent (`~400 Endpoints`)
 - **Challenge:** Standardize monitoring, diagnostics, and controlled remote actions across hundreds of distributed retail workstations, POS terminals, and store servers.
 - **Architecture:** Windows service agent (`NSSM` / `LocalSystem`) communicating over persistent **WebSockets secured with mTLS** to a **FastAPI + PostgreSQL** central control plane, featuring heartbeat telemetry, remote commands, self-updates, watchdogs, and anti-tamper protections.
 
@@ -132,7 +132,7 @@ flowchart LR
 
 ### 7. AI Workflow Copilot with Vision DLP Gate
 - **Challenge:** Turn raw voice notes, RSS feeds, and screenshots into structured technical posts safely without risking credential or internal infrastructure exposure.
-- **Architecture:** Async **Python** service deployed via **Docker / Cloud Run**, integrating Gemini/Vertex AI, PostgreSQL, OAuth 2.0 publishing, and an automated Vision DLP audit layer that blocks screenshots containing leaked tokens, emails, or internal IPs.
+- **Architecture:** Async **Python** service deployed via **Docker / Cloud Run**, integrating an LLM API, PostgreSQL, OAuth 2.0 publishing, and an automated Vision DLP audit layer that blocks screenshots containing leaked tokens, emails, or internal IPs.
 
 ### 8. Data Privacy Governance (DPO), OWASP AppSec & SaaS Product Architecture
 - **Challenge:** Align fast-moving engineering, clinical/legal SaaS product design, and multi-site retail operations with strict LGPD/GDPR rules, offensive vulnerability findings, and automated web data pipelines.
@@ -141,6 +141,14 @@ flowchart LR
 ### 9. Solutions Product Ownership (PO) & End-to-End System Deployments
 - **Challenge:** Deliver complex ERP modules, internal web portals (monitoring, fleet control, CCTV, recruiting), and cross-branch rollouts (`~80 stores / ~400 endpoints`) without disrupting daily retail operations.
 - **Architecture & Delivery:** Bridged business stakeholders, internal engineering, and third-party software houses: leading requirements discovery, technical specifications, Kanban backlog prioritization, UAT validation, zero-downtime parallel cutovers, wave rollouts, migration runbooks, and hands-on operational training.
+
+### 10. E-Invoice (NF-e) Intake Hub & Daily Reconciliation
+- **Challenge:** Supplier invoice XMLs arrived by email, invoices stalled in the ERP import queue, and a separate manual tool required picking date ranges and re-scanning 40k+ invoices a month to find gaps.
+- **Architecture:** Always-on **Python** desktop hub (Tkinter, SQL Server) with IMAP intake, automatic re-queue of stalled invoices, incremental sync from a fiscal platform's **OData API** every 10 minutes (~4s per cycle), a key-only daily reconciliation pass that downloads full data only for missing invoices, certificate expiry alerts, and a hang watchdog that restarts stuck cycles.
+
+### 11. Time-Boxed Database Access Automation
+- **Challenge:** Temporary database access for analysts and vendors was granted by hand, sometimes stayed open after hours, and live sessions were hard to see.
+- **Architecture:** **Python** bot that registers each request, creates time-boxed access, cuts it at the end of business hours, routes after-hours requests to an approval poll in chat, allows extensions that only move the end time, and shows live sessions.
 
 ---
 
@@ -162,7 +170,7 @@ Sou Bacharel em Ciência da Computação, pós-graduando em Segurança Cibernét
 Desenvolvo sistemas de produção, automações e soluções corporativas com foco em **Python, TypeScript, Next.js, T-SQL e C# (.NET)**, combinando operação prática em **Windows Server, Active Directory (GPOs e controle de acessos), suporte técnico N2 com atendimento remoto e via chat**, infraestrutura distribuída, observabilidade e privacidade de dados (LGPD/GDPR).
 
 - **Projetos Open-Source em Destaque:**
-  - [`gavicoding.github.io`](https://github.com/gavicoding/gavicoding.github.io) ([Site ao vivo](https://gavicoding.github.io)): Portfólio web oficial bilíngue (`EN` / `PT-BR`) em HTML5, CSS3 e JavaScript puro, com ilustrações dark-tech exclusivas, formação, linha do tempo, filtros e métricas reais de impacto.
+  - [`gavicoding.github.io`](https://github.com/gavicoding/gavicoding.github.io) ([Site ao vivo](https://gavicoding.github.io)): Portfólio web oficial bilíngue (`EN` / `PT-BR`) em HTML5, CSS3 e JavaScript puro, com CLI interativa, paleta de comandos `Ctrl+K`, três simulações ao vivo (mascaramento DLP, saúde de filas e conciliação de notas) e casos reais contados como dor -> solução -> resultado.
   - [`pii-screenshot-guard`](https://github.com/gavicoding/pii-screenshot-guard) ([Documentação](https://gavicoding.github.io/pii-screenshot-guard/)): Scanner, redator e auditor de PRs via API do GitHub com foco em Zero-Trust DLP (LGPD/GDPR, CPF/CNPJ com dígito verificador, cartões Luhn, chaves de API, IPs internos e OCR/Vision).
   - [`queue-health-watchdog`](https://github.com/gavicoding/queue-health-watchdog): Monitor somente leitura de filas/replicação em TypeScript com heurística de tendência (diferencia `HIGH_LOAD` de `STALLED`), throttling de alertas, webhooks e dashboard ao vivo.
   - [`tsql-retail-ops-analytics`](https://github.com/gavicoding/tsql-retail-ops-analytics): Portfólio de engenharia SQL Server / T-SQL com agregações condicionais em passada única, deduplicação por `ROW_NUMBER()`, stored procedures multivisão, auditoria WMS/fiscal, diagnóstico de locks (`sys.dm_tran_locks`) e controle de acesso granular (`GRANT SELECT`).
@@ -175,11 +183,13 @@ Desenvolvo sistemas de produção, automações e soluções corporativas com fo
   - **Mapa de Topologia de Infraestrutura & Serviços:** mapeamento conectando lojas, setores, servidores e serviços ativos para detecção rápida de falhas e isolamento de causa raiz.
   - **Automação de Retransmissão de Vendas:** detecção proativa de gargalos de transmissão entre lojas/PDVs e ERP central com fluxos automáticos de recuperação e alertas.
   - **Analytics de Performance na Separação (Picking):** visibilidade operacional de etapas, filas e indicadores de produtividade logística.
-  - **Agente de Gerenciamento de Frota Windows (`100+ máquinas`):** serviço Windows via WebSockets com mTLS, painel FastAPI + PostgreSQL e watchdogs.
+  - **Agente de Gerenciamento de Frota Windows (`~400 máquinas`):** serviço Windows via WebSockets com mTLS, painel FastAPI + PostgreSQL e watchdogs.
   - **Monitor Somente Leitura de Replicação SQL Server:** heurística anti-falso-positivo e alertas com cooldown.
   - **Orquestrador ITSM + CFTV:** automação de coleta de evidências em DVRs/NVRs com fila de retentativas e atualização automática de chamados.
   - **Copiloto Assíncrono de Conteúdo com Vision DLP:** pipeline Docker/Cloud Run com auditoria visual automática antes da publicação.
   - **Governança DPO (LGPD/GDPR), OWASP AppSec & Arquitetura SaaS:** programas de conformidade (RoPA, bases legais, Art. 18, DPAs, DPIA/RIPD e Comitê de Segurança da APDADOS®), pentests web (mapeamento de 16 falhas críticas/médias OWASP Top 10 com planos de remediação e hardening) + forense digital, arquitetura funcional de duas plataformas SaaS multi-tenant (gestão clínica e portal jurídico com RBAC, agenda e módulos financeiros) e automações com Playwright, Telegram, Google Sheets e GitHub Actions.
+  - **Hub de Entrada de NF-e & Conciliação Diária:** aplicativo desktop 24/7 em Python que recebe os XMLs por IMAP, reprocessa notas travadas no ERP, sincroniza pela API OData da plataforma fiscal a cada 10 min (~4s por ciclo) e faz uma conciliação diária que baixa só as notas que faltam.
+  - **Acesso Temporário ao Banco de Dados:** robô que cria acesso com prazo, corta no fim do expediente, manda pedidos fora do horário para aprovação por enquete no chat e mostra as sessões ativas.
   - **Product Ownership (PO) & Implantação de Sistemas/ERPs:** levantamento de requisitos com áreas de negócio, especificações técnicas, gestão de backlog em Kanban, ponte com software houses, homologação (UAT), viradas em paralelo sem indisponibilidade, rollouts em ondas, runbooks de migração e treinamento prático de equipes.
 
 </details>
