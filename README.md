@@ -167,9 +167,9 @@ flowchart LR
 ## 🐍 Contribution Activity
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gavicoding/gavicoding/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gavicoding/gavicoding/output/github-snake.svg" />
-  <img alt="Animated snake eating the contribution graph" src="https://raw.githubusercontent.com/gavicoding/gavicoding/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gavicoding/gavicoding/output/contrib-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gavicoding/gavicoding/output/contrib-light.svg" />
+  <img alt="Animated contribution graph: GAVICODING written in cells, an avatar placing the year contributions and a snake eating them" src="https://raw.githubusercontent.com/gavicoding/gavicoding/output/contrib-light.svg" />
 </picture>
 
 ---
