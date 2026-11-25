@@ -16,7 +16,7 @@ I design and build resilient production tools across **Python, TypeScript, Next.
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/docs/Web/JavaScript)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://github.com/gavicoding/auditor-ibs-cbs)
 [![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev/)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/docs/Web/HTML)
@@ -24,15 +24,15 @@ I design and build resilient production tools across **Python, TypeScript, Next.
 [![C# / .NET 8](https://img.shields.io/badge/.NET_8-512BD4?style=flat-square&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
 [![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)](https://www.gnu.org/software/bash/)
 [![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)](https://learn.microsoft.com/powershell/)
-[![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)](https://www.microsoft.com/sql-server)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
-[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)](https://github.com/gavicoding/auditor-ibs-cbs)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)](https://github.com/gavicoding/auditor-ibs-cbs)
+[![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)](https://github.com/gavicoding/auditor-ibs-cbs)
+[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)](https://github.com/gavicoding/auditor-ibs-cbs)
 [![Windows Server](https://img.shields.io/badge/Windows_Server-0078D6?style=flat-square&logo=windows&logoColor=white)](https://www.microsoft.com/windows-server)
 [![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)](https://www.kernel.org/)
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://github.com/gavicoding/auditor-ibs-cbs)
 [![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)](https://nginx.org/)
-[![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/features/actions)
+[![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/gavicoding/auditor-ibs-cbs)
 [![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)](https://cloud.google.com/)
 [![Active Directory](https://img.shields.io/badge/Active_Directory-0078D4?style=flat-square&logo=windows&logoColor=white)](https://github.com/gavicoding/ad-access-audit)
 [![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)](https://gavicoding.github.io/#experience)
@@ -75,6 +75,7 @@ I design and build resilient production tools across **Python, TypeScript, Next.
 | **[Thunderbird-Outlook](https://github.com/gavicoding/Thunderbird-Outlook)** | Python · COM · SQLite · vCard 3.0 | Moves email and contacts between Thunderbird and Outlook **in both directions**, keeping folders, original dates, senders and attachments. Simple Windows app plus CLI. |
 | **[nfe-toolkit](https://github.com/gavicoding/nfe-toolkit)** | Python · CLI · Zero Dependencies · pytest | Checks NF-e/NFC-e access keys, shows what is inside a key or XML, sorts XML files by year/month without overwriting and tells you **which invoices are missing** from a folder. No dependencies. |
 | **[ad-access-audit](https://github.com/gavicoding/ad-access-audit)** | PowerShell · Active Directory · Pester · PSScriptAnalyzer | **Read-only** Active Directory access review: idle accounts, passwords that never expire, disabled accounts still in admin groups, orphan adminCount and supplier accounts with no logon hours, in **one HTML/CSV/JSON report sorted by severity**. Offline mode from a JSON snapshot. |
+| **[auditor-ibs-cbs](https://github.com/gavicoding/auditor-ibs-cbs)** ([Live Site](https://gavicoding.github.io/auditor-ibs-cbs/)) | Python · JavaScript · SQL · Docker · GitHub Action | Checks the new **IBS/CBS tax reform fields** in Brazilian e-invoices (NF-e, NFC-e, CT-e, BP-e, NF3-e, NFS-e) and shows the **SEFAZ rejection code**, rule and technical note page for each mistake, so you fix it before the invoice is rejected. Runs in the browser with nothing uploaded, or as Python, SQL (SQL Server, PostgreSQL, MySQL, SQLite), local API, .exe or GitHub Action. Official tables update daily. |
 
 ---
 
@@ -209,6 +210,7 @@ Desenvolvo sistemas de produção, automações e soluções corporativas com fo
   - [`Thunderbird-Outlook`](https://github.com/gavicoding/Thunderbird-Outlook): Leva e-mails e contatos entre Thunderbird e Outlook **nos dois sentidos**, mantendo pastas, datas originais, remetentes e anexos. Janela simples para Windows e linha de comando.
   - [`nfe-toolkit`](https://github.com/gavicoding/nfe-toolkit): Confere a chave de acesso de NF-e/NFC-e, mostra o que tem dentro da chave ou do XML, organiza os XMLs por ano/mês sem sobrescrever e mostra **quais notas estão faltando** numa pasta. Sem dependências.
   - [`ad-access-audit`](https://github.com/gavicoding/ad-access-audit): Revisão de acessos do Active Directory **sem alterar nada**: contas paradas, senhas que nunca expiram, contas desativadas que continuam em grupo de administrador, adminCount esquecido e contas de fornecedor sem horário de logon, num **relatório HTML/CSV/JSON em ordem de gravidade**. Também funciona a partir de um arquivo exportado.
+  - [`auditor-ibs-cbs`](https://github.com/gavicoding/auditor-ibs-cbs) ([Usar no navegador](https://gavicoding.github.io/auditor-ibs-cbs/)): Confere os campos novos de **IBS e CBS da reforma tributária** em NF-e, NFC-e, CT-e, BP-e, NF3-e e NFS-e e mostra **qual rejeição da SEFAZ** cada erro vai causar, com a regra e a página da nota técnica, para você corrigir antes de a nota voltar. Roda no navegador sem enviar nada, e também em Python, SQL (SQL Server, PostgreSQL, MySQL e SQLite), API local, .exe ou GitHub Action. As tabelas oficiais se atualizam sozinhas todo dia.
 
 - **Experiência em Arquiteturas Corporativas (Casos Sanitizados):**
   - **Infraestrutura Windows Server, AD & Suporte N2:** administração de servidores Windows, Active Directory (GPOs e controle de acessos), VPNs, suporte técnico N2, atendimento remoto e via chat, e governança ITSM/GLPI em ambiente com várias unidades.
