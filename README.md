@@ -34,7 +34,7 @@ I design and build resilient production tools across **Python, TypeScript, Next.
 [![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)](https://nginx.org/)
 [![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/features/actions)
 [![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)](https://cloud.google.com/)
-[![Active Directory](https://img.shields.io/badge/Active_Directory-0078D4?style=flat-square&logo=windows&logoColor=white)](https://github.com/gavicoding/infra-ops-playbook)
+[![Active Directory](https://img.shields.io/badge/Active_Directory-0078D4?style=flat-square&logo=windows&logoColor=white)](https://github.com/gavicoding/ad-access-audit)
 [![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)](https://gavicoding.github.io/#experience)
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)](https://gavicoding.github.io/#experience)
 [![Tkinter](https://img.shields.io/badge/Tkinter_Desktop-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/gavicoding/Thunderbird-Outlook)
@@ -74,6 +74,7 @@ I design and build resilient production tools across **Python, TypeScript, Next.
 | **[OtimizaPC](https://github.com/gavicoding/OtimizaPC)** | C# · .NET 8 · WPF (MVVM) | Windows cleanup app that **never deletes anything before showing you**: one-click restore point, duplicates by content, leftovers from uninstalled programs, disk health and a map of what takes up space. |
 | **[Thunderbird-Outlook](https://github.com/gavicoding/Thunderbird-Outlook)** | Python · COM · SQLite · vCard 3.0 | Moves email and contacts between Thunderbird and Outlook **in both directions**, keeping folders, original dates, senders and attachments. Simple Windows app plus CLI. |
 | **[nfe-toolkit](https://github.com/gavicoding/nfe-toolkit)** | Python · CLI · Zero Dependencies · pytest | Checks NF-e/NFC-e access keys, shows what is inside a key or XML, sorts XML files by year/month without overwriting and tells you **which invoices are missing** from a folder. No dependencies. |
+| **[ad-access-audit](https://github.com/gavicoding/ad-access-audit)** | PowerShell · Active Directory · Pester · PSScriptAnalyzer | **Read-only** Active Directory access review: idle accounts, passwords that never expire, disabled accounts still in admin groups, orphan adminCount and supplier accounts with no logon hours, in **one HTML/CSV/JSON report sorted by severity**. Offline mode from a JSON snapshot. |
 
 ---
 
@@ -207,6 +208,7 @@ Desenvolvo sistemas de produção, automações e soluções corporativas com fo
   - [`OtimizaPC`](https://github.com/gavicoding/OtimizaPC): App de limpeza do Windows que **nunca apaga nada sem mostrar antes**: ponto de restauração com um clique, duplicados pelo conteúdo, restos de programas desinstalados, saúde do disco e mapa do que ocupa espaço.
   - [`Thunderbird-Outlook`](https://github.com/gavicoding/Thunderbird-Outlook): Leva e-mails e contatos entre Thunderbird e Outlook **nos dois sentidos**, mantendo pastas, datas originais, remetentes e anexos. Janela simples para Windows e linha de comando.
   - [`nfe-toolkit`](https://github.com/gavicoding/nfe-toolkit): Confere a chave de acesso de NF-e/NFC-e, mostra o que tem dentro da chave ou do XML, organiza os XMLs por ano/mês sem sobrescrever e mostra **quais notas estão faltando** numa pasta. Sem dependências.
+  - [`ad-access-audit`](https://github.com/gavicoding/ad-access-audit): Revisão de acessos do Active Directory **sem alterar nada**: contas paradas, senhas que nunca expiram, contas desativadas que continuam em grupo de administrador, adminCount esquecido e contas de fornecedor sem horário de logon, num **relatório HTML/CSV/JSON em ordem de gravidade**. Também funciona a partir de um arquivo exportado.
 
 - **Experiência em Arquiteturas Corporativas (Casos Sanitizados):**
   - **Infraestrutura Windows Server, AD & Suporte N2:** administração de servidores Windows, Active Directory (GPOs e controle de acessos), VPNs, suporte técnico N2, atendimento remoto e via chat, e governança ITSM/GLPI em ambiente com várias unidades.
